@@ -46,6 +46,10 @@ function App() {
               Review next step of this tutorial.
             </a>
           </div>
+          <div>
+            User <strong>{user?.username}</strong><br/>
+            can click on "Sign Out" to close the session
+          </div>
           <button onClick={signOut}> Sign Out</button>
         </main>
       )}
